@@ -4,7 +4,10 @@ package com.designpattern.creating.singleton;
  * @Descripton
  * 静态内部类
  *  优点
+ *   利用JVM实现线程安全
+ *   节省资源
  *  缺点
+ *
  * @Classname StaticInside
  * @Author CaoYang
  * @Address 开发大道
