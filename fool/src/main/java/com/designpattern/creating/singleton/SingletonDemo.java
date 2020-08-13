@@ -9,8 +9,8 @@ package com.designpattern.creating.singleton;
  */
 public class SingletonDemo {
 
-    public Lazy doTest(){
-        Lazy lazy = Lazy.getInstance();
+    public StaticInside doTest(){
+        StaticInside lazy = StaticInside.getInstance();
         return lazy;
     }
 
