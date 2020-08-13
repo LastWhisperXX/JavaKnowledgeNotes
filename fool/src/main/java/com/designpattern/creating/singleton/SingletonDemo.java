@@ -9,11 +9,19 @@ package com.designpattern.creating.singleton;
  */
 public class SingletonDemo {
 
+    /**
+     * 单例组
+     * @return
+     */
     public StaticInside doTest(){
         StaticInside lazy = StaticInside.getInstance();
         return lazy;
     }
 
+    /**
+     * 对照组
+     * @return
+     */
     public Contrast doContrast(){
         Contrast contrast = new Contrast();
         return contrast;
